@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONA+E - ONG Donations</title>
+    <link rel="stylesheet" href="../Donate_Project_v1.2/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav id="menu-h">
+            <ul>
+                <li><a class="active" href="index.php"><i class="fa fa-home"></i></a></li>
+                <li><input type="search" id="pesquisa"></li>
+                <li><a href="../Donate_Project_v1.2/registerOng.html">Sou uma ONG</a></li>
+                <li><a href="../Donate_Project_v1.2/registerUser.html">Quero ser voluntário</a></li>
+                <li><a href="../Donate_Project_v1.2/search.html">Doe Já</a></li>
+                <li><a href="../Donate_Project_v1.2/login.html">Login</a></li>
+              </ul>
+        </nav>
+    </header>
+    <br><br>
+    <br><br>
+    <div class="form-container-donate">
+        <fieldset>
+            <legend><b>Adicione uma campanha</b></legend>
+            <form action="../Donate_Project_v1.2/donateAddExecute.php" method="post">
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" name="nomeDonate" id="nome-donate" class="input-donate" required>
+                    <label class="label-input-donate" for="nome-donate">Campanha</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" name="descriDonate" id="descri-donate" class="input-donate" required>
+                    <label class="label-input-donate" for="descri-donate">Descrição</label>
+                </div>
+                <br><br>
+                <label for="donate-init"><b>Data de início:</b></label>
+                <input type="text" name="initDonate" id="donate-init" required>
+                <br><br>
+                <label for="donate-fin"><b>Data de encerramento:</b></label>
+                <input type="text" name="finDonate" id="donate-fin" required>
+                <br><br>
+                <div class="inputbox">
+                    <br><br>
+                    <label class="supreme-label">Arrecadações:</label>
+                    <br><br>
+                    <label for="donate-1" class="donate-item-label">Pedido 1:</label>
+                    <input type="text" name="arrDonate1" id="donate-1" class="input-donate-itens" required>
+                    <label for="donate-2" class="donate-item-label">Pedido 2:</label>
+                    <input type="text" name="arrDonate2" id="donate-2" class="input-donate-itens">
+                    <label for="donate-3" class="donate-item-label">Pedido 3:</label>
+                    <input type="text" name="arrDonate3" id="donate-3" class="input-donate-itens">
+                    <label for="donate-4" class="donate-item-label">Pedido 4:</label>
+                    <input type="text" name="arrDonate4" id="donate-4" class="input-donate-itens">
+                    <label for="donate-5" class="donate-item-label">Pedido 5:</label>
+                    <input type="text" name="arrDonate5" id="donate-5" class="input-donate-itens">
+                    <br><br>
+                </div>
+                <div class="inputbox">
+                    <button type="submit" id="btn-confirmar" name="regGon">Confirmar</button>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="footer-borderline">
+        <footer>
+            <div class="footer-content">
+                <h3>DONA+E</h3>
+                <p>Nos diga nas redes sociais!</p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+                <div class="footer-bottom">
+                    <p>copyright &copy;2021 DONA+E. Design by <span>Group7</span></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
