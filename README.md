@@ -16,7 +16,7 @@ Desenvolvimento de uma p√°gina com o foco de fazer a ponte entre Ong's e volunt√
 
 Projeto divido em front-end, baseado em HTML5 e CSS, back-end baseado em PHP com banco de dados estruturado em MYSQL. 
 
-Utilizado XAMP como webserver de testes. 
+Utilizado XAMP como web server de testes. 
 
 
 
