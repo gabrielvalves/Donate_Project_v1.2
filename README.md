@@ -12,7 +12,11 @@ Weslley Pereira da Costa - 19157009
 
 Descrição: 
 
-Desenvolvimento de uma página com o foco de fazer a ponte entre Ong's e voluntários. 
+Desenvolvimento de uma página com o foco de fazer a ponte entre Ong's e voluntários.
+
+Projeto divido em front-end, baseado em HTML5 e CSS, back-end baseado em PHP com banco de dados estruturado em MYSQL. 
+
+Utilizado XAMP como webserver de testes. 
 
 
 
